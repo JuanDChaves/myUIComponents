@@ -1,0 +1,7 @@
+.elementInContext {
+  border: solid 1px #bbb;
+  width: 600px;
+  padding: 30px;
+  position: relative;
+  left: 60px;
+}
