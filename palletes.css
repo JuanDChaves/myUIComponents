@@ -1,0 +1,129 @@
+.palette-show {
+  border: solid 2px #000;
+  position: relative;
+  left: 50px;
+  width: 1200px;
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.palette {
+  border: solid 2px #777;
+  margin: 40px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.color {
+  border: none;
+  border-radius: 25%;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+}
+
+/* Pallete 1 */
+
+.palette-one .first-color {
+  background-color: #222831;
+}
+
+.palette-one .second-color {
+  background-color: #393e46;
+}
+
+.palette-one .third-color {
+  background-color: #00adb5;
+}
+
+.palette-one .fourth-color {
+  background-color: #eeeeee;
+}
+
+/* Pallete 2 */
+
+.palette-two .first-color {
+  background-color: #f9ed69;
+}
+
+.palette-two .second-color {
+  background-color: #f08a5d;
+}
+
+.palette-two .third-color {
+  background-color: #b83b5e;
+}
+
+.palette-two .fourth-color {
+  background-color: #6a2c70;
+}
+
+/* Pallete 3 */
+.palette-three .first-color {
+  background-color: #e3fdfd;
+}
+
+.palette-three .second-color {
+  background-color: #d6d2c4;
+}
+
+.palette-three .third-color {
+  background-color: #fff5ea;
+}
+
+.palette-three .fourth-color {
+  background-color: #f7dad9;
+}
+
+/* Pallete 4 */
+.palette-four .first-color {
+  background-color: #171717;
+}
+
+.palette-four .second-color {
+  background-color: #444444;
+}
+
+.palette-four .third-color {
+  background-color: #da0037;
+}
+
+.palette-four .fourth-color {
+  background-color: #ededed;
+}
+
+/* Pallete 5 */
+.palette-five .first-color {
+  background-color: #071a52;
+}
+
+.palette-five .second-color {
+  background-color: #086972;
+}
+
+.palette-five .third-color {
+  background-color: #17b978;
+}
+
+.palette-five .fourth-color {
+  background-color: #a7ff83;
+}
+
+/* Pallete 6 */
+.palette-six .first-color {
+  background-color: #0cecdd;
+}
+
+.palette-six .second-color {
+  background-color: #fff338;
+}
+
+.palette-six .third-color {
+  background-color: #ff67e7;
+}
+
+.palette-six .fourth-color {
+  background-color: #c400ff;
+}
