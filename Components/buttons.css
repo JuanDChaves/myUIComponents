@@ -8,6 +8,8 @@ body {
   font-family: "Roboto";
 }
 
+/* BOTON 1 */
+
 #buttonContainer1 {
   background-color: #00adb5;
   width: 400px;
@@ -16,15 +18,60 @@ body {
   border-radius: 5px;
 }
 
-#buttonContainer1 button {
+#button1 {
   color: #eeeeee;
-  background-color: #393e46;
+  background-color: hsl(217, 10%, 25%);
   position: absolute;
-  top: 50%;
-  left: 50%;
+  height: 48px;
+  width: 96px;
   padding: 10px;
+  top: 26px;
+  left: 145px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
+
+#button1:hover {
+  background-color: hsl(216, 10%, 33%);
+}
+
+/* BOTON 2 */
+
+#buttonContainer2 {
+  background-color: #f9ed69;
+  width: 400px;
+  height: 100px;
+  position: relative;
+  border-radius: 5px;
+}
+
+#button2 {
+  background-color: #b83b5e;
+  color: #fff;
+  position: absolute;
+  height: 48px;
+  width: 96px;
+  top: 26px;
+  left: 145px;
+  cursor: pointer;
+  border: none;
+  box-shadow: -5px 5px 0 #000;
+}
+
+#button2:hover {
+  box-shadow: -3px 3px 0 #000;
+}
+
+#button2:active {
+  box-shadow: -1px 1px 0 #000;
+}
+
+background-color: #f9ed69;
+
+background-color: #f08a5d;
+
+background-color: #b83b5e;
+
+background-color: #6a2c70;
