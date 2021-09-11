@@ -36,6 +36,9 @@ body {
 #button1:hover {
   background-color: hsl(216, 10%, 33%);
 }
+/* #button2:active {
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
+} */
 
 /* BOTON 2 */
 
@@ -60,18 +63,23 @@ body {
   box-shadow: -5px 5px 0 #000;
 }
 
+#button2::before {
+  content: " ";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 1px;
+  left: 30px;
+  background-color: #000;
+  transform: rotate(45deg);
+}
+
 #button2:hover {
-  box-shadow: -3px 3px 0 #000;
+  transform: translate(-2.5px, 2.5px);
+  box-shadow: -2.5px 2.5px 0 #000;
 }
 
 #button2:active {
-  box-shadow: -1px 1px 0 #000;
+  transform: translate(-5px, 5px);
+  box-shadow: none;
 }
-
-background-color: #f9ed69;
-
-background-color: #f08a5d;
-
-background-color: #b83b5e;
-
-background-color: #6a2c70;
