@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  background-color: hsl(16, 100%, 56%);
+}
+
+h1 {
+  background-color: hsl(16, 100%, 76%);
+  padding: 20px;
+}
+
+section {
+  /* display: inline;
+  display: block;
+  display: flex; */
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  flex: 1;
+}
+
+.adiv {
+  background-color: hsl(182, 25%, 50%);
+  border: 1px solid black;
+  margin: 5px;
+  padding: 10px;
+}
+
+section > .adiv:nth-child(odd) {
+  background-color: hsl(182, 25%, 40%);
+}
+
+/* .first-div {
+  flex: 1 200px;
+}
+.second-div {
+  flex: 2 200px;
+}
+.third-div {
+  flex: 2 200px;
+}
+.fourth-div {
+  flex: 1 200px;
+} */
