@@ -50,13 +50,15 @@ body {
   height: 100px;
   position: relative;
   border-radius: 5px;
-  z-index: 1;
 }
 
 #button2 {
   background-color: #b83b5e;
   color: #fff;
+  letter-spacing: 1px;
+  font-weight: bold;
   position: absolute;
+  display: inline-block;
   height: 48px;
   width: 96px;
   top: 26px;
@@ -64,6 +66,28 @@ body {
   cursor: pointer;
   border: none;
   box-shadow: -5px 5px 0 #000;
+  transition: all 0.15s linear 0s;
+}
+
+#button2:hover {
+  top: 23.5px;
+  left: 147.5px;
+  /* transform: translate(-2.5px, 2.5px); */
+  box-shadow: -2.5px 2.5px 0 #000;
+}
+
+#button2:hover::before {
+  width: 3.5px;
+  height: 3.5px;
+  top: 0.5px;
+  left: -1.5px;
+}
+
+#button2:hover::after {
+  width: 3.5px;
+  height: 3.5px;
+  top: 46.4px;
+  left: 91.5px;
 }
 
 #button2::before {
@@ -88,25 +112,6 @@ body {
   background-color: #000;
   transform: rotate(45deg);
   z-index: -1;
-}
-
-#button2:hover {
-  transform: translate(-2.5px, 2.5px);
-  box-shadow: -2.5px 2.5px 0 #000;
-}
-
-#button2:hover::before {
-  width: 3.5px;
-  height: 3.5px;
-  top: 0.5px;
-  left: -1.5px;
-}
-
-#button2:hover::after {
-  width: 3.5px;
-  height: 3.5px;
-  top: 46.4px;
-  left: 91.5px;
 }
 
 #button2:active {
